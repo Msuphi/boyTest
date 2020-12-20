@@ -58,7 +58,7 @@ namespace ServiceBuilders
             return configuration.GetOptions<TModel>(settingsSectionName);
         }
 
-        [Obsolete("Call 'UseConvey()' instead, this method might be removed in the future.")]
+        [Obsolete("Call Use Initializer")]
         public static IApplicationBuilder UseInitializers(this IApplicationBuilder app)
         {
             using (var scope = app.ApplicationServices.CreateScope())
