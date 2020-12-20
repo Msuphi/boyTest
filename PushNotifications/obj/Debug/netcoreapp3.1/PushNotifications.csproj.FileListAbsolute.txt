@@ -1,0 +1,10 @@
+C:\Users\mustafasuphi.kolu\Source\repos\TestApi\PushNotifications\bin\Debug\netcoreapp3.1\PushNotifications.deps.json
+C:\Users\mustafasuphi.kolu\Source\repos\TestApi\PushNotifications\bin\Debug\netcoreapp3.1\PushNotifications.dll
+C:\Users\mustafasuphi.kolu\Source\repos\TestApi\PushNotifications\obj\Debug\netcoreapp3.1\PushNotifications.csprojAssemblyReference.cache
+C:\Users\mustafasuphi.kolu\Source\repos\TestApi\PushNotifications\obj\Debug\netcoreapp3.1\PushNotifications.AssemblyInfoInputs.cache
+C:\Users\mustafasuphi.kolu\Source\repos\TestApi\PushNotifications\obj\Debug\netcoreapp3.1\PushNotifications.AssemblyInfo.cs
+C:\Users\mustafasuphi.kolu\Source\repos\TestApi\PushNotifications\obj\Debug\netcoreapp3.1\PushNotifications.csproj.CoreCompileInputs.cache
+C:\Users\mustafasuphi.kolu\Source\repos\TestApi\PushNotifications\bin\Debug\netcoreapp3.1\notificationsKey.json
+C:\Users\mustafasuphi.kolu\Source\repos\TestApi\PushNotifications\bin\Debug\netcoreapp3.1\PushNotifications.pdb
+C:\Users\mustafasuphi.kolu\Source\repos\TestApi\PushNotifications\obj\Debug\netcoreapp3.1\PushNotifications.dll
+C:\Users\mustafasuphi.kolu\Source\repos\TestApi\PushNotifications\obj\Debug\netcoreapp3.1\PushNotifications.pdb

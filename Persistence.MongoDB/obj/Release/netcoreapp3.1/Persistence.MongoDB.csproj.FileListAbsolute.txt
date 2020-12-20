@@ -1,0 +1,12 @@
+C:\Users\mustafasuphi.kolu\Source\repos\TestApi\Persistence.MongoDB\bin\Release\netcoreapp3.1\Persistence.MongoDB.deps.json
+C:\Users\mustafasuphi.kolu\Source\repos\TestApi\Persistence.MongoDB\bin\Release\netcoreapp3.1\Persistence.MongoDB.dll
+C:\Users\mustafasuphi.kolu\Source\repos\TestApi\Persistence.MongoDB\bin\Release\netcoreapp3.1\Persistence.MongoDB.pdb
+C:\Users\mustafasuphi.kolu\Source\repos\TestApi\Persistence.MongoDB\bin\Release\netcoreapp3.1\ServiceBuilders.dll
+C:\Users\mustafasuphi.kolu\Source\repos\TestApi\Persistence.MongoDB\bin\Release\netcoreapp3.1\ServiceBuilders.pdb
+C:\Users\mustafasuphi.kolu\Source\repos\TestApi\Persistence.MongoDB\obj\Release\netcoreapp3.1\Persistence.MongoDB.csprojAssemblyReference.cache
+C:\Users\mustafasuphi.kolu\Source\repos\TestApi\Persistence.MongoDB\obj\Release\netcoreapp3.1\Persistence.MongoDB.AssemblyInfoInputs.cache
+C:\Users\mustafasuphi.kolu\Source\repos\TestApi\Persistence.MongoDB\obj\Release\netcoreapp3.1\Persistence.MongoDB.AssemblyInfo.cs
+C:\Users\mustafasuphi.kolu\Source\repos\TestApi\Persistence.MongoDB\obj\Release\netcoreapp3.1\Persistence.MongoDB.csproj.CoreCompileInputs.cache
+C:\Users\mustafasuphi.kolu\Source\repos\TestApi\Persistence.MongoDB\obj\Release\netcoreapp3.1\Persistence.MongoDB.csproj.CopyComplete
+C:\Users\mustafasuphi.kolu\Source\repos\TestApi\Persistence.MongoDB\obj\Release\netcoreapp3.1\Persistence.MongoDB.dll
+C:\Users\mustafasuphi.kolu\Source\repos\TestApi\Persistence.MongoDB\obj\Release\netcoreapp3.1\Persistence.MongoDB.pdb

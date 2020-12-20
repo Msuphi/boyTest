@@ -1,0 +1,406 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\mustafasuphi.kolu\\Source\\repos\\TestApi\\TestApi\\Publisher.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\mustafasuphi.kolu\\Source\\repos\\TestApi\\MessageBrokers\\MessageBrokers.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\mustafasuphi.kolu\\Source\\repos\\TestApi\\MessageBrokers\\MessageBrokers.csproj",
+        "projectName": "MessageBrokers",
+        "projectPath": "C:\\Users\\mustafasuphi.kolu\\Source\\repos\\TestApi\\MessageBrokers\\MessageBrokers.csproj",
+        "packagesPath": "C:\\Users\\mustafasuphi.kolu\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mustafasuphi.kolu\\Source\\repos\\TestApi\\MessageBrokers\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\mustafasuphi.kolu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\mustafasuphi.kolu\\Source\\repos\\TestApi\\Persistence.MongoDB\\Persistence.MongoDB.csproj": {
+                "projectPath": "C:\\Users\\mustafasuphi.kolu\\Source\\repos\\TestApi\\Persistence.MongoDB\\Persistence.MongoDB.csproj"
+              },
+              "C:\\Users\\mustafasuphi.kolu\\Source\\repos\\TestApi\\PushNotifications\\PushNotifications.csproj": {
+                "projectPath": "C:\\Users\\mustafasuphi.kolu\\Source\\repos\\TestApi\\PushNotifications\\PushNotifications.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "Microsoft.Extensions.ObjectPool": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "Microsoft.Extensions.Options": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.Options.ConfigurationExtensions": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            },
+            "RabbitMQ.Client": {
+              "target": "Package",
+              "version": "[6.2.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\mustafasuphi.kolu\\Source\\repos\\TestApi\\Persistence.MongoDB\\Persistence.MongoDB.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\mustafasuphi.kolu\\Source\\repos\\TestApi\\Persistence.MongoDB\\Persistence.MongoDB.csproj",
+        "projectName": "Persistence.MongoDB",
+        "projectPath": "C:\\Users\\mustafasuphi.kolu\\Source\\repos\\TestApi\\Persistence.MongoDB\\Persistence.MongoDB.csproj",
+        "packagesPath": "C:\\Users\\mustafasuphi.kolu\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mustafasuphi.kolu\\Source\\repos\\TestApi\\Persistence.MongoDB\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\mustafasuphi.kolu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\mustafasuphi.kolu\\Source\\repos\\TestApi\\ServiceBuilders\\ServiceBuilders.csproj": {
+                "projectPath": "C:\\Users\\mustafasuphi.kolu\\Source\\repos\\TestApi\\ServiceBuilders\\ServiceBuilders.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.AspNetCore.Http.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "Microsoft.Extensions.Options": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.Options.ConfigurationExtensions": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.11.5, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\mustafasuphi.kolu\\Source\\repos\\TestApi\\PushNotifications\\PushNotifications.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\mustafasuphi.kolu\\Source\\repos\\TestApi\\PushNotifications\\PushNotifications.csproj",
+        "projectName": "PushNotifications",
+        "projectPath": "C:\\Users\\mustafasuphi.kolu\\Source\\repos\\TestApi\\PushNotifications\\PushNotifications.csproj",
+        "packagesPath": "C:\\Users\\mustafasuphi.kolu\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mustafasuphi.kolu\\Source\\repos\\TestApi\\PushNotifications\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\mustafasuphi.kolu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "FirebaseAdmin": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\mustafasuphi.kolu\\Source\\repos\\TestApi\\ServiceBuilders\\ServiceBuilders.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\mustafasuphi.kolu\\Source\\repos\\TestApi\\ServiceBuilders\\ServiceBuilders.csproj",
+        "projectName": "ServiceBuilders",
+        "projectPath": "C:\\Users\\mustafasuphi.kolu\\Source\\repos\\TestApi\\ServiceBuilders\\ServiceBuilders.csproj",
+        "packagesPath": "C:\\Users\\mustafasuphi.kolu\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mustafasuphi.kolu\\Source\\repos\\TestApi\\ServiceBuilders\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\mustafasuphi.kolu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.AspNetCore.Http.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "Microsoft.Extensions.Options": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.Options.ConfigurationExtensions": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\mustafasuphi.kolu\\Source\\repos\\TestApi\\TestApi\\Publisher.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\mustafasuphi.kolu\\Source\\repos\\TestApi\\TestApi\\Publisher.csproj",
+        "projectName": "Publisher",
+        "projectPath": "C:\\Users\\mustafasuphi.kolu\\Source\\repos\\TestApi\\TestApi\\Publisher.csproj",
+        "packagesPath": "C:\\Users\\mustafasuphi.kolu\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mustafasuphi.kolu\\Source\\repos\\TestApi\\TestApi\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\mustafasuphi.kolu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\mustafasuphi.kolu\\Source\\repos\\TestApi\\MessageBrokers\\MessageBrokers.csproj": {
+                "projectPath": "C:\\Users\\mustafasuphi.kolu\\Source\\repos\\TestApi\\MessageBrokers\\MessageBrokers.csproj"
+              },
+              "C:\\Users\\mustafasuphi.kolu\\Source\\repos\\TestApi\\ServiceBuilders\\ServiceBuilders.csproj": {
+                "projectPath": "C:\\Users\\mustafasuphi.kolu\\Source\\repos\\TestApi\\ServiceBuilders\\ServiceBuilders.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            },
+            "RabbitMQ.Client": {
+              "target": "Package",
+              "version": "[6.2.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
